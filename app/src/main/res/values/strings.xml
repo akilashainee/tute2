@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">using String</string>
+    <string name="Msg1">here, I am the text massage 1</string>
+    <string name="Msg2">here, I am the text massage 2</string>
+    <string name="textview">TextView</string>
+
+</resources>
