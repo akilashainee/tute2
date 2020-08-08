@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
         TextView txtmsg2 = findViewById(R.id.Tvmsg2);
         txtmsg2.setText(R.string.Msg2);
 
-        Log.i("life cycle","on create called..");
+        Log.i("life cycle","on create called.");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.i("life cycle", "on start called");
+        Log.i("life cycle", "on start called...");
     }
 
     @Override
