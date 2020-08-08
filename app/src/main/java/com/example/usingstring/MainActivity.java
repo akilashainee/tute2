@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.i("life cycle", "on start called...");
+        Log.i("life cycle", "on start called.");
     }
 
     @Override
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-    Log.i("life cycle", "ondestroy called.. hi");
+    Log.i("life cycle", "ondestroy called..");
     }
 
 }
