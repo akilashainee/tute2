@@ -40,13 +40,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i("life cycle","on stop called");
+        Log.i("life cycle","onstop called..");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-    Log.i("life cycle", "on destroy called");
+    Log.i("life cycle", "ondestroy called.. hi");
     }
 
 }
